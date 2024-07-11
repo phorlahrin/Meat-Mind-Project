@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EFEFD0;
+    padding: 100px 0px;
+}
+
+#left-side-section{
+    max-width: 40%;
+}
+
+#left-side-section img{
+    max-width: 100%;
+}
+
+#right-side-section {
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#right-side-section a{
+    text-decoration: none;
+}
+
+#right-side-section a:hover{
+    text-decoration: underline;
+}
+
+#email-signin-section img{
+    max-width: 40px;
+}
+
+#login-section h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#login-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login-section form input {
+    height: 55px;
+    width: 56%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 0 14px;
+    margin-left: 40px;
+  }
+
+#login-section form label {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    font-size: 23px;
+    padding-left: 30px;
+  }
+
+  #login-section h5 {
+    text-align: center;
+  }
+
+  #login-section form button {
+    height: 40px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 0 14px;
+    background-color: #004E89;
+    color: white;
+  }
+
+#submit-button {
+    text-align: center;
+}
+
+#signup {
+    text-align: center;
+}
+
+#email-signin-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
