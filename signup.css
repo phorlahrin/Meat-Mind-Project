@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EFEFD0;
+    padding: 100px 0px;
+}
+
+#left-side-section{
+    max-width: 40%;
+}
+
+#left-side-section img{
+    max-width: 100%;
+}
+
+#right-side-section {
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#right-side-section a{
+    text-decoration: none;
+}
+
+#right-side-section a:hover{
+    text-decoration: underline;
+}
+
+#email-signup-section img{
+    max-width: 40px;
+}
+
+#signup-section h1{
+    color: #004E89;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#signup-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+#signup-section form input {
+    height: 55px;
+    width: 80%;
+    border: 2px solid #004E89;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 0 14px;
+  }
+
+  ::placeholder {
+    color: #004E89;
+    font-size: 1.063rem;
+  }
+
+  #signup-section h5 {
+    text-align: center;
+  }
+
+  #signup-section form button {
+    height: 40px;
+    width: 80%;
+    border: 1px solid #004E89;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 0 14px;
+    background-color: #004E89;
+    color: white;
+  }
+
+#submit-button {
+    text-align: center;
+}
+
+#signin {
+    text-align: center;
+}
+
+#email-signup-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
